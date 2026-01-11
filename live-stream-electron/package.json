@@ -1,0 +1,27 @@
+{
+  "name": "Remote-Stream",
+  "version": "4.0.0",
+  "description": "To send the live stream of your desktop application to remote",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build"
+  },
+  "author": "bhaktigohel.1596@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.2.0",
+    "electron-builder": "^24.4.0"
+  },
+  "dependencies": {
+    "electron-is-dev": "^2.0.0",
+    "electron-log": "^5.1.7",
+    "python-shell": "^5.0.0"
+  },
+  "build": {
+    "win": {
+      "icon": "icon.ico"
+    }
+  }
+}

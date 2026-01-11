@@ -1,0 +1,60 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+coverage/**
+.vite/
+.cache/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Electron / native build artifacts
+dist_electron/
+release/
+
+# Misc
+*.tgz
+*.zip
+*.7z
+
+# Project-specific build folders
+live-stream-admin/dist/
+live-stream-backend/dist/
+live-stream-electron/dist/
+
+live-stream-admin/node_modules/*
+live-stream-backend/node_modules/*
+live-stream-electron/node_modules/*
+live-stream-admin/.env*
+live-stream-backend/.env*
+live-stream-electron/.env*
